@@ -1,0 +1,196 @@
+{
+  "users": [
+    {
+      "id": "admin-main",
+      "name": "Kompetenzen Administrator",
+      "email": "admin@kompetenzen.demo",
+      "passwordHash": "$2b$10$k.5dE6599IhFEtbI1RTTv.Dei99rr/Y8pqTyqmxBTpJnp9F3kyN/6",
+      "role": "admin",
+      "phone": "",
+      "city": "",
+      "qualification": "",
+      "pathway": "",
+      "learningGoal": "",
+      "createdAt": "2026-10-21T06:45:18.965Z"
+    },
+    {
+      "id": "stu-1792647559158-cmhgy",
+      "name": "Nayana _",
+      "email": "nayanamolutty@gmail.com",
+      "phone": "8891271587",
+      "city": "nayanamolutty@gmail.com",
+      "qualification": "Graduate",
+      "pathway": "Technical",
+      "learningGoal": "Software Developer",
+      "passwordHash": "$2b$10$SIh3O6jMINeqExYxodlLQeneiNGJ/JIlGUEL8M8Hb6ki5PYSpwO/.",
+      "role": "student",
+      "createdAt": "2026-10-22T05:39:19.157Z"
+    },
+    {
+      "id": "stu-1792647685441-jhxce",
+      "name": "Naveen",
+      "email": "naveengopan@gmail.com",
+      "phone": "9982737788",
+      "city": "Alappuzha",
+      "qualification": "Postgraduate",
+      "pathway": "Sales",
+      "learningGoal": "Sales Engineering",
+      "passwordHash": "$2b$10$7tkI01FLtw.vUBGrNJNs.ezQjrzcIqdjlT9Oyr3xe33SDemVSYWUW",
+      "role": "student",
+      "createdAt": "2026-10-22T05:41:25.441Z"
+    },
+    {
+      "id": "stu-1792649793424-595ne",
+      "name": "kavya",
+      "email": "kavya@gmail.com",
+      "phone": "9867543409",
+      "city": "kottayam",
+      "qualification": "Postgraduate",
+      "pathway": "Sales",
+      "learningGoal": "CRM",
+      "passwordHash": "$2b$10$fyoN0E9wLJJJveC0wDge9.g5x/GeL8PDJBGcaw4xAs3tgMPOxtPJa",
+      "role": "student",
+      "createdAt": "2026-10-22T06:16:33.424Z"
+    },
+    {
+      "id": "stu-1792651177764-mvat0",
+      "name": "nanadana",
+      "email": "nandana@gmail.com",
+      "phone": "8891344560",
+      "city": "alappuzha",
+      "qualification": "Graduate",
+      "pathway": "Technical",
+      "learningGoal": "software developer",
+      "passwordHash": "$2b$10$sOj5RbkUHrwJ9bUfoZt6VeeahBZy7So6361LOPWXqn1..Jwq6513W",
+      "role": "student",
+      "createdAt": "2026-10-22T06:39:37.764Z"
+    }
+  ],
+  "programs": [
+    {
+      "id": "P001",
+      "pathway": "Technical",
+      "name": "Programming Fundamentals",
+      "focusAreas": "Python, Java,",
+      "description": "Explore programming fundamentals and problem-solving skills.",
+      "status": "Not Available"
+    },
+    {
+      "id": "P002",
+      "pathway": "Technical",
+      "name": "Full Stack Development",
+      "focusAreas": "HTML, CSS, React, Node.js",
+      "description": "Explore frontend and backend web development.",
+      "status": "Available"
+    },
+    {
+      "id": "P003",
+      "pathway": "Technical",
+      "name": "AI, ML and Data Science",
+      "focusAreas": "Artificial Intelligence, Machine Learning, Data Analytics",
+      "description": "Explore modern AI concepts, machine learning and data-driven problem solving.",
+      "status": "Available"
+    },
+    {
+      "id": "P004",
+      "pathway": "Technical",
+      "name": "Cybersecurity Fundamentals",
+      "focusAreas": "Cybersecurity, Network Safety, Security Awareness",
+      "description": "Learn introductory cybersecurity concepts and safe computing practices.",
+      "status": "Available"
+    },
+    {
+      "id": "P005",
+      "pathway": "Sales",
+      "name": "Sales and Business Development",
+      "focusAreas": "Lead Generation, CRM, Sales Strategy",
+      "description": "Explore sales processes, customer engagement and business development.",
+      "status": "Available"
+    },
+    {
+      "id": "P006",
+      "pathway": "Sales",
+      "name": "B2B Sales and Negotiation",
+      "focusAreas": "B2B Sales, Negotiation, Client Relationships",
+      "description": "Build foundational knowledge of business-to-business selling and negotiation.",
+      "status": "Available"
+    },
+    {
+      "id": "P007",
+      "pathway": "B-School",
+      "name": "Business Management Fundamentals",
+      "focusAreas": "Management, Business Operations, Communication",
+      "description": "Explore business management concepts and professional communication.",
+      "status": "Available"
+    },
+    {
+      "id": "P008",
+      "pathway": "B-School",
+      "name": "HR and Corporate Readiness",
+      "focusAreas": "HR, Recruitment, HRMS, Workplace Readiness",
+      "description": "Explore human resources concepts and corporate-readiness skills.",
+      "status": "Available"
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "enq-1792647559274-7qkx",
+      "studentId": "stu-1792647559158-cmhgy",
+      "studentName": "Nayana _",
+      "email": "nayanamolutty@gmail.com",
+      "phone": "8891271587",
+      "pathway": "Technical",
+      "learningGoal": "Software Developer",
+      "status": "Closed",
+      "createdAt": "2026-10-22T05:39:19.157Z"
+    },
+    {
+      "id": "enq-1792647685556-59oz",
+      "studentId": "stu-1792647685441-jhxce",
+      "studentName": "Naveen",
+      "email": "naveengopan@gmail.com",
+      "phone": "9982737788",
+      "pathway": "Sales",
+      "learningGoal": "Sales Engineering",
+      "status": "Contacted",
+      "createdAt": "2026-10-22T05:41:25.441Z"
+    },
+    {
+      "id": "enq-1792649793552-e8od",
+      "studentId": "stu-1792649793424-595ne",
+      "studentName": "kavya",
+      "email": "kavya@gmail.com",
+      "phone": "9867543409",
+      "pathway": "Sales",
+      "learningGoal": "CRM",
+      "status": "New",
+      "createdAt": "2026-10-22T06:16:33.424Z"
+    },
+    {
+      "id": "enq-1792651177896-khhs",
+      "studentId": "stu-1792651177764-mvat0",
+      "studentName": "nanadana",
+      "email": "nandana@gmail.com",
+      "phone": "8891344560",
+      "pathway": "Technical",
+      "learningGoal": "software developer",
+      "status": "New",
+      "createdAt": "2026-10-22T06:39:37.764Z"
+    },
+    {
+      "id": "enq-1793109962257-sl324",
+      "studentId": null,
+      "studentName": "Nayana _",
+      "email": "nayanamolutty@gmail.com",
+      "phone": "8891271587",
+      "city": "kottayam",
+      "pathway": "Technical",
+      "selectedItem": "Full Stack Development",
+      "itemType": "program",
+      "learningGoal": "overall benefit of this topic",
+      "message": "overall benefit of this topic",
+      "status": "New",
+      "createdAt": "2026-10-27T14:06:02.257Z"
+    }
+  ]
+}
